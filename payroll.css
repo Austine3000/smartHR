@@ -1,0 +1,30 @@
+.form-label {
+  font-size: 10px;
+  font-weight: bold;
+  color: #9b9b9b;
+}
+
+input[type="text"] {
+  font-size: 10px;
+}
+
+.payroll-content-area select {
+  font-size: 10px;
+}
+
+.payroll-content-area {
+  padding: 20px 70px 10px 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.para-to {
+  padding: 20px;
+}
+
+.export {
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 600;
+
+  color: #4cae51;
+}

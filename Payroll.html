@@ -1,0 +1,298 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>SmartHR</title>
+
+    <link href="./dashboard.css" rel="stylesheet" />
+    <link href="./payroll.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="body-style" class="container-fluid">
+    <div class="header-area">
+      <h2 class="smart-logo">SMART HR</h2>
+      <div class="header-right-side">
+        <img
+          src="assets/notification.svg"
+          class="sidebar-icon"
+          alt="notification"
+        />
+        <span>James Doe</span>
+      </div>
+    </div>
+    <div class="row">
+      <div id="remove-padding" class="col-md-3 sidebar">
+        <ul class="menu-list">
+          <li class="sidebar-list">
+            <a href="./dashboard.html" class="sidebar-list-name"
+              ><img
+                src="assets/dashboard.svg"
+                class="sidebar-icon"
+                alt="dashboard"
+              />Dashboard</a
+            >
+          </li>
+          <li class="sidebar-list">
+            <a href="#" class="sidebar-list-name"
+              ><img
+                src="assets/friend.svg"
+                class="sidebar-icon"
+                alt="friend"
+              />Employees</a
+            >
+          </li>
+          <li class="sidebar-list">
+            <a href="#" class="sidebar-list-name"
+              ><img
+                src="assets/clock.svg"
+                class="sidebar-icon"
+                alt="clock"
+              />Attendance</a
+            >
+          </li>
+          <li class="sidebar-list">
+            <a href="./Payroll.html" class="sidebar-list-name">
+              <img
+                src="assets/nigeria-naira-currency-symbol.svg"
+                class="sidebar-icon"
+                alt="nigeria-naira-currency-symbol"
+              />Payroll</a
+            >
+          </li>
+          <li class="sidebar-list">
+            <a href="#" class="sidebar-list-name"
+              ><img
+                src="assets/settings-work-tool.svg"
+                alt="settings-work-tool"
+                class="sidebar-icon"
+              />User Roles</a
+            >
+          </li>
+          <li class="sidebar-list">
+            <a href="#" class="sidebar-list-name"
+              ><img
+                src="assets/settings.svg"
+                class="sidebar-icon"
+                alt="settings"
+              />Settings</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-9 scrollable">
+        <div class="row payroll-content-area">
+          <div class="col-md-2">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1" class="form-label"
+                >Select payroll filter option</label
+              >
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Gross Salary</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1" class="form-label"
+                >Date</label
+              >
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Jan 2018</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+          </div>
+          <span class="para-to">to</span>
+          <div class="col-md-2">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1" class="form-label"
+                >Date</label
+              >
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Dec 2018</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <h5 class="payroll-content-area">Filter by:</h5>
+        <div class="row payroll-content-area">
+          <div class="col-md-2">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1" class="form-label"
+                >Company</label
+              >
+              <select class="form-control" id="exampleFormControlSelect1">
+                <optgroup>
+                  <option>All</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </optgroup>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1" class="form-label"
+                >Site</label
+              >
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>All</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1" class="form-label"
+                >Department</label
+              >
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>All</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="form-group">
+              <label for="exampleFormControlSelect1" class="form-label"
+                >Employee</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Enter employees name"
+              />
+            </div>
+          </div>
+          <span class="export">Export Excel</span> <span class="export">|</span>
+          <span class="export">Export PDF</span>
+        </div>
+        <div class="row payroll-content-area">
+          <div class="table-responsive">
+            <table class="table table-bordered">
+              <thead class="thead-light">
+                <tr>
+                  <th scope="col">No.</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">January</th>
+                  <th scope="col">Febuary</th>
+                  <th scope="col">March</th>
+                  <th scope="col">April</th>
+                  <th scope="col">May</th>
+                  <th scope="col">June</th>
+                  <th scope="col">July</th>
+                  <th scope="col">August</th>
+                  <th scope="col">September</th>
+                  <th scope="col">October</th>
+                  <th scope="col">November</th>
+                  <th scope="col">December</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                </tr>
+              </tbody>
+              <tfoot class="thead-light">
+                <th scope="row">Total</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

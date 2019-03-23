@@ -1,0 +1,150 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>SmartHR</title>
+
+    <link href="./dashboard.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="body-style" class="container-fluid">
+    <div class="header-area">
+      <h2 class="smart-logo">SMART HR</h2>
+      <div class="header-right-side">
+        <img
+          src="assets/notification.svg"
+          class="sidebar-icon"
+          alt="notification"
+        />
+        <span>James Doe</span>
+      </div>
+    </div>
+    <div class="row">
+      <div id="remove-padding" class="col-md-3 sidebar">
+        <ul class="menu-list">
+          <li class="sidebar-list">
+            <a href="./dashboard.html" class="sidebar-list-name"
+              ><img
+                src="assets/dashboard.svg"
+                class="sidebar-icon"
+                alt="dashboard"
+              />Dashboard</a
+            >
+          </li>
+          <li class="sidebar-list">
+            <a href="#" class="sidebar-list-name"
+              ><img
+                src="assets/friend.svg"
+                class="sidebar-icon"
+                alt="friend"
+              />Employees</a
+            >
+          </li>
+          <li class="sidebar-list">
+            <a href="#" class="sidebar-list-name"
+              ><img
+                src="assets/clock.svg"
+                class="sidebar-icon"
+                alt="clock"
+              />Attendance</a
+            >
+          </li>
+          <li class="sidebar-list">
+            <a href="./Payroll.html" class="sidebar-list-name">
+              <img
+                src="assets/nigeria-naira-currency-symbol.svg"
+                class="sidebar-icon"
+                alt="nigeria-naira-currency-symbol"
+              />Payroll</a
+            >
+          </li>
+          <li class="sidebar-list">
+            <a href="#" class="sidebar-list-name"
+              ><img
+                src="assets/settings-work-tool.svg"
+                alt="settings-work-tool"
+                class="sidebar-icon"
+              />User Roles</a
+            >
+          </li>
+          <li class="sidebar-list">
+            <a href="#" class="sidebar-list-name"
+              ><img
+                src="assets/settings.svg"
+                class="sidebar-icon"
+                alt="settings"
+              />Settings</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-9 scrollable">
+        <div class="row dashboard-content-area">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Number of Employees</h5>
+                <h6 class="card-subtitle mb-2 ">2065</h6>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Number of Companies</h5>
+                <h6 class="card-subtitle mb-2">3</h6>
+              </div>
+            </div>
+            <button type="button" class="btn btn-view btn-block">
+              View Employees
+            </button>
+          </div>
+          <div class="col-md-8">
+            <div class="card chart-card">
+              <h5 class="card-header">Total Number of Employees per Company</h5>
+              <div class="card-body"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row dashboard-content-area">
+          <div class="col-md-8">
+            <div class="card chart-card">
+              <h5 class="card-header">Payroll in the 6 Months</h5>
+              <div class="card-body"></div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Payroll for Last Month</h5>
+                <h6 class="card-subtitle mb-2 ">NGN 3,065,000</h6>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Payroll for Next Month</h5>
+                <h6 class="card-unhighlighted  mb-2 ">Not Generated</h6>
+              </div>
+            </div>
+            <button type="button" class="btn btn-view btn-block">
+              Go to Payroll
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

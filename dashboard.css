@@ -1,0 +1,130 @@
+body {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.smart-logo {
+  margin: 15px 50px 15px 65px;
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.header-right-side {
+  float: right;
+  padding: 15px 90px 15px 30px;
+  display: inline-block;
+}
+
+#body-style {
+  padding-right: 0;
+  padding-left: 0;
+}
+.main-content-area {
+  background-color: #fafafa;
+}
+
+.header-area {
+  height: 10%;
+  border: solid 1px #e3e5e8;
+  background-color: #ffffff;
+}
+
+.sidebar {
+  border: solid 1px #e3e5e8;
+  background-color: #f2f3f3;
+  height: 90%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+#remove-padding {
+  padding-right: 0px;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 100px 0 0 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+.menu-list .sidebar-list-name {
+  color: #000000;
+  display: block;
+  padding: 15px 20px 15px 65px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sidebar-icon {
+  padding-right: 15px;
+  margin-bottom: 4px;
+}
+
+.menu-list .sidebar-list-name:active {
+  background-color: #e8e8e8;
+  border-left: 7px solid #4cae51;
+  padding: 15px 20px 15px 65px;
+}
+
+.menu-list .sidebar-list-name:hover {
+  background-color: #e8e8e8;
+  border-left: 7px solid #4cae51;
+  padding: 15px 20px 15px 65px;
+}
+
+.scrollable {
+  height: 90%;
+  overflow-y: scroll;
+}
+
+.dashboard-content-area {
+  padding: 40px 70px 40px 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.dashboard-content-area .card-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #9b9b9b;
+}
+
+.dashboard-content-area .card-subtitle {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.9px;
+  color: #000000;
+}
+
+.dashboard-content-area .card {
+  height: 109px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 4px 0 rgba(204, 204, 204, 0.5);
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.chart-card .card-header {
+  background-color: #4cae51;
+  font-size: 14px;
+  color: #fff;
+}
+
+.dashboard-content-area .btn-view {
+  background-color: #4cae51;
+  font-size: 14px;
+  color: #fff;
+}
+
+.dashboard-content-area .card-unhighlighted {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.9px;
+  color: #cdcdcd;
+}
